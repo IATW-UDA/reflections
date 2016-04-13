@@ -5,4 +5,9 @@ A2.If other users are working on the project, you might want to manually update 
 Q3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A3.A fork creates a copy of a repository on a server, typically GitHub. A clone is a copy from one server (GitHub, perhaps) to another server location. A branch is a part of a repository that contains changes not on the master version.
 A fork would be used to create a repository for a new project while keeping the original intact. A clone is used to pull a repository to a local machine. A branch is used to make changes within a repository that may be incorporated into the master at a later time.
-
+Q4.What is the benefit of having a copy of the last known state of the remote stored locally?
+A4.Merges and pushes are easier to manage.
+Q5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A5.I would probably just use a spreadsheet with a log of changes that I would e-mail around to all of my collaborators. It would be a pain in the neck. Nothing would be easier, everything would be harder.
+Q6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A6.Make a change in a separate branch if you want to have multiple versions of the same application, or if the changes may not work. Benefit of a separate branch is that it is easier to undo. Benefit of working directly on master is that it is not necessary to merge after changes are made.
